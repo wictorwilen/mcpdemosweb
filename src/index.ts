@@ -64,7 +64,7 @@ mcpServer.registerTool("getPlanets", {
       ],
       travelRisk: "N/A",
       travelTimeDays: 0,
-      travelNotes: "Earth is the only planet known to support life and has one natural satellite
+      travelNotes: "Earth is the only planet known to support life and has one natural satellite"
     },
     {
       name: "Mars",
@@ -85,7 +85,7 @@ mcpServer.registerTool("getPlanets", {
       ],
       travelRisk: "Moderate",
       travelTimeDays: 687,
-      travelNotes: "Mars has two small moons and is known for its red color due to
+      travelNotes: "Mars has two small moons and is known for its red color due to"
     },
     {
       name: "Jupiter",
@@ -116,7 +116,7 @@ mcpServer.registerTool("getPlanets", {
       ],
       travelRisk: "High",
       travelTimeDays: 4333,
-      travelNotes: "Jupiter is the largest planet in the solar system and has a strong
+      travelNotes: "Jupiter is the largest planet in the solar system and has a strong"
     },
     {
       name: "Saturn",
