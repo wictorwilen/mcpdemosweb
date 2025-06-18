@@ -182,7 +182,7 @@ app.post('/mcp', async (req: Request, res: Response) => {
   // In stateless mode, create a new instance of transport and server for each request
   // to ensure complete isolation. A single instance would cause request ID collisions
   // when multiple clients connect concurrently.
-
+  console.log('Received POST MCP request');
   try {
     const server = mcpServer;
     const transport: StreamableHTTPServerTransport = new StreamableHTTPServerTransport({
@@ -195,6 +195,7 @@ app.post('/mcp', async (req: Request, res: Response) => {
     });
     await server.connect(transport);
     await transport.handleRequest(req, res, req.body);
+    console.log('MCP request handled successfully');
   } catch (error) {
     console.error('Error handling MCP request:', error);
     if (!res.headersSent) {
