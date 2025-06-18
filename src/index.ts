@@ -35,14 +35,20 @@ mcpServer.registerTool("getPlanets", {
       type: "Terrestrial",
       diameter_km: 4879,
       distanceFromSun_km: 57900000,
-      moons: []
+      moons: [],
+      travelRisk: "Low",
+      travelTimeDays: 88,
+      travelNotes: "Mercury has no moons and is the closest planet to the Sun, making it a quick trip."
     },
     {
       name: "Venus",
       type: "Terrestrial",
       diameter_km: 12104,
       distanceFromSun_km: 108200000,
-      moons: []
+      moons: [],
+      travelRisk: "Low",
+      travelTimeDays: 225,
+      travelNotes: "Venus has no moons and is similar in structure to Earth, but with a thick, toxic atmosphere."
     },
     {
       name: "Earth",
@@ -55,7 +61,10 @@ mcpServer.registerTool("getPlanets", {
           diameter_km: 3474,
           discovered: "Prehistoric"
         }
-      ]
+      ],
+      travelRisk: "N/A",
+      travelTimeDays: 0,
+      travelNotes: "Earth is the only planet known to support life and has one natural satellite
     },
     {
       name: "Mars",
@@ -73,7 +82,10 @@ mcpServer.registerTool("getPlanets", {
           diameter_km: 12.4,
           discovered: 1877
         }
-      ]
+      ],
+      travelRisk: "Moderate",
+      travelTimeDays: 687,
+      travelNotes: "Mars has two small moons and is known for its red color due to
     },
     {
       name: "Jupiter",
@@ -101,7 +113,10 @@ mcpServer.registerTool("getPlanets", {
           diameter_km: 4820,
           discovered: 1610
         }
-      ]
+      ],
+      travelRisk: "High",
+      travelTimeDays: 4333,
+      travelNotes: "Jupiter is the largest planet in the solar system and has a strong
     },
     {
       name: "Saturn",
@@ -124,7 +139,10 @@ mcpServer.registerTool("getPlanets", {
           diameter_km: 1469,
           discovered: 1671
         }
-      ]
+      ],
+      travelRisk: "High",
+      travelTimeDays: 10759,
+      travelNotes: "Saturn is known for its stunning rings and has many moons, including Titan, which is larger than the planet Mercury."
     },
     {
       name: "Uranus",
@@ -142,7 +160,10 @@ mcpServer.registerTool("getPlanets", {
           diameter_km: 1523,
           discovered: 1787
         }
-      ]
+      ],
+      travelRisk: "High",
+      travelTimeDays: 30687,
+      travelNotes: "Uranus is unique for its tilted axis and has a cold, windy atmosphere. It has a number of moons, including Titania and Oberon."
     },
     {
       name: "Neptune",
@@ -155,7 +176,10 @@ mcpServer.registerTool("getPlanets", {
           diameter_km: 2706,
           discovered: 1846
         }
-      ]
+      ],
+      travelRisk: "High",
+      travelTimeDays: 60190,
+      travelNotes: "Neptune is the farthest planet from the Sun and has a dynamic atmosphere with strong winds. It has one large moon, Triton, which is geologically active."
     }
   ];
 
